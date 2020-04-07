@@ -2,19 +2,23 @@
 <html>
     <head>
         <title>Charlotte's Milestone Project</title>
-        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     </head>
+
     <body>
       <section id="header">
-        <img src="img/hero-image.jpg" alt="hero-image">
-        <h1>Hi There! I'm Charlotte Gray</h1>
-        <h2>I am a graphic designer branching into web development from London, UK</h2>
+        <div class="full-width">
+          <img src="img/hero-image.jpg" alt="hero-image">
+          <h1>Hi There! I'm Charlotte Gray</h1>
+          <h2>I am a graphic designer branching into web development from London, UK</h2>
+        </div>
       </section>
 
       <section id="work">
-        <h3>My Portfolio</h3>
-
-        <div class="rogue-pickings">
+        <div class="full-width" id="rogue-pickings">
+          <h3>My Portfolio</h3>
           <div class="half-width">
             <img src="img/rogue-pickings-thumbnail.png" alt="rough-pickings-thumbnail">
           </div>
@@ -26,7 +30,7 @@
           </div>
         </div>
 
-        <div class="jubilee-austen">
+        <div class="full-width" id="jubilee-austen">
           <div class="half-width">
             <img src="img/jubilee-thumbnail.png" alt="jubilee-thumbnail">
           </div>
@@ -37,7 +41,7 @@
           </div>
         </div>
 
-        <div class="panchos-pantry">
+        <div class="full-width" id="panchos-pantry">
           <div class="half-width">
             <img src="img/jubilee-thumbnail.png" alt="jubilee-thumbnail">
           </div>
@@ -50,9 +54,9 @@
 
       </section>
 
-      <section id="about">
+      <section class="full-width" id="about">
         <div class="half-width">
-          <img src="img/charlotte-profile-ella-2.jpg" alt="charlotte-profile">
+          <img src="img/charlotte-profile-ella-2.jpg" alt="charlotte-profile" style="height: 300px">
         </div>
         <div class="bio">
           <h3>About Me</h3>
@@ -66,7 +70,7 @@
         </div>
       </section>
 
-      <section id="contact">
+      <section class="full-width" id="contact">
         <h3>Let me make you a website to deliver your message and delight your audience. </h3>
         <div class="third-width">
           <h6>Hire me</h6>

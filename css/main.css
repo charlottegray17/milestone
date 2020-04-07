@@ -1,0 +1,31 @@
+/**********BASE STYLES*********/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header, #work, #about, #contact {
+  height: 600px;
+}
+
+/**********GRID*********/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  float: left;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+/**********GRID*********/
