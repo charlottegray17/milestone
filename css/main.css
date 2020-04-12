@@ -4,7 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#work, #about, #contact {
+#about, #contact {
   height: 600px;
 }
 
@@ -58,4 +58,83 @@ body {
   color: #095156;
 }
 
-/**********HEADER*********/
+/**********WORK*********/
+
+#work {
+  height: 1300px;
+  background-color: black;
+}
+
+#work h3 {
+  color: #095156;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#work h4 {
+  color: #095156;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#work h5 {
+  color: #095156;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#work p {
+  color: #095156;
+}
+
+#rogue-pickings .half-width {
+  height: 354px;
+  padding-bottom: 40px;
+}
+
+#jubilee-austen .half-width {
+  height: 354px;
+  padding-bottom: 40px;
+}
+
+#panchos-pantry .half-width {
+  height: 354px;
+  padding-bottom: 40px;
+}
+
+/**********ABOUT*********/
+
+#about {
+  background-color: #087e8b;
+  color: white;
+}
+
+#about h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#about h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#about p {
+  font-size: 18px;
+}
+
+#about img {
+  position: relative;
+  left: 25%;
+}
+
+/**********ABOUT*********/
+
+#contact {
+  background-color: #095156;
+  color: white;
+  height: 400px;
+  text-align: center;
+}
