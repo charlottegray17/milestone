@@ -62,7 +62,7 @@ body {
 
 #work {
   height: 1300px;
-  background-color: black;
+  padding-left: 100px;
 }
 
 #work h3 {
@@ -103,11 +103,18 @@ body {
   padding-bottom: 40px;
 }
 
+#panchos-pantry img {
+  width: 550px;
+  background-color: pink;
+  border: 1px #b7b7b7 solid;
+}
+
 /**********ABOUT*********/
 
 #about {
   background-color: #087e8b;
   color: white;
+  padding-left: 100px;
 }
 
 #about h3 {
@@ -119,6 +126,7 @@ body {
 #about h4 {
   font-size: 24px;
   font-weight: 600;
+  margin-top: 0px;
 }
 
 #about p {
@@ -126,8 +134,14 @@ body {
 }
 
 #about img {
-  position: relative;
-  left: 25%;
+}
+
+#charlotte-profile {
+  background-image: url(../img/charlotte-profile-ella-2.jpg);
+  background-size: cover;
+  margin-right: 20px;
+  height: 420px;
+  width: 550px;
 }
 
 /**********ABOUT*********/
@@ -137,4 +151,34 @@ body {
   color: white;
   height: 400px;
   text-align: center;
+  padding-left: 100px;
+}
+
+#contact h6 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  margin-bottom: 0px;
+}
+
+#contact a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+#contact img {
+  padding: 5px 0;
+  margin: 0 20px;
+}
+
+#copyright {
+  margin-top: 109px;
+}
+
+#copyright p {
+  font-weight: lighter;
+  font-size: 12px;
 }
