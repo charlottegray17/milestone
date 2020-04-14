@@ -1,5 +1,10 @@
 /**********BASE STYLES*********/
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -13,7 +18,6 @@ body {
 .full-width {
   width: 1200px;
   margin: 0 auto;
-  float: left;
 }
 
 .half-width {
@@ -33,7 +37,7 @@ body {
 #header {
   background-image: url(../img/hero-image.jpg);
   background-size: cover;
-  height: 800px;
+  height: 900px;
 }
 
 #header-text {
@@ -62,6 +66,7 @@ body {
 
 #work {
   height: 1300px;
+  padding-top: 40px;
   padding-left: 100px;
 }
 
@@ -70,6 +75,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 600;
+  padding-bottom: 30px;
 }
 
 #work h4 {
@@ -115,18 +121,21 @@ body {
   background-color: #087e8b;
   color: white;
   padding-left: 100px;
+  padding-top: 20px;
 }
 
 #about h3 {
   text-align: center;
   font-size: 36px;
   font-weight: 600;
+  padding-bottom: 30px;
 }
 
 #about h4 {
   font-size: 24px;
   font-weight: 600;
   margin-top: 0px;
+  padding-bottom: 30px;
 }
 
 #about p {
@@ -152,6 +161,11 @@ body {
   height: 400px;
   text-align: center;
   padding-left: 100px;
+  padding-top: 40px;
+}
+
+#contact h3 {
+  padding-bottom: 50px;
 }
 
 #contact h6 {
@@ -175,7 +189,9 @@ body {
 }
 
 #copyright {
-  margin-top: 109px;
+  clear: both;
+  margin-top: 209px;
+
 }
 
 #copyright p {
